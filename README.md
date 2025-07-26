@@ -1,4 +1,4 @@
-# Procore Analytics Extractor
+# Procore Analytics Data Extractor
 
 A Python application for extracting data from Procore Analytics using Delta Sharing.
 
