@@ -1,0 +1,7 @@
+pandas
+delta_sharing
+dotenv
+black
+flake8
+pylint
+colorama

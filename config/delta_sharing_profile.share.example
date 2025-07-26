@@ -1,0 +1,5 @@
+{
+    "shareCredentialsVersion": 1,
+    "endpoint": "https://your-databricks-workspace.cloud.databricks.com/api/2.0/delta-sharing/metastores/your-metastore-id",
+    "bearerToken": "your-bearer-token-here"
+}
