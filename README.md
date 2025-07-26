@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # Procore Analytics Data Extractor
 
 A Python application for extracting data from Procore Analytics using Delta Sharing.
