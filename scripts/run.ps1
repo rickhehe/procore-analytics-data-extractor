@@ -13,8 +13,8 @@ $activate_script = Join-Path $venv_path "Scripts/Activate.ps1"
 
 # Install dependencies if requirements.txt exists
 if (Test-Path $requirements) {
-    python -m pip install --upgrade pip | Out-Null
-    python -m pip install -r $requirements | Out-Null
+    python -m pip install --upgrade pip  #| Out-Null
+    python -m pip install -r $requirements  #| Out-Null
 } else {
     Write-Host "requirements.txt not found. Skipping dependency installation." -ForegroundColor Yellow
 }
