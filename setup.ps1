@@ -21,7 +21,7 @@ if ($share_files.Count -eq 0) {
     
     $target_file = "config/$profile_name.share"
     Copy-Item "config/delta_sharing_profile.share.example" $target_file
-    Write-Host "✓ Created $target_file. Please edit it with your actual credentials." -ForegroundColor Yellow
+    Write-Host "Created $target_file. Please edit it with your actual credentials." -ForegroundColor Yellow
     
     # Update .env to point to the new file
     $env_content = Get-Content ".env"
@@ -32,6 +32,5 @@ if ($share_files.Count -eq 0) {
 
 Write-Host ""
 Write-Host "Setup complete! Next steps:" -ForegroundColor Cyan
-Write-Host "1. Edit .env with your configuration"
-Write-Host "2. Edit your .share file with actual Delta Sharing credentials"
-Write-Host "3. Run: $ .\script\run.ps1"
+Write-Host "1. Edit your .share file with actual Delta Sharing credentials"
+Write-Host "2. Run: $ .\script\run.ps1"
